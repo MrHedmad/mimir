@@ -25,6 +25,12 @@ With FAIR data we mean data that is:
 
   Such a large amount of [metadata](./intro_to_metadata.md) is usually stored
   in a separate file that is kept alongside the data that it is describing.
+
+  This point also covers making your metadata and data machine-readable.
+  Think about searching: it's done by a machine, not a human.
+  If metadata was readable by a machine, you could run powerful searches
+  managing to locate the proverbial needle (the data that you need) in the
+  haystack (the huge amount of data available online).
 - **Accessible**: you can easily get, or know how to get, FAIR data.
   This might seem trivial, but not all data is born equal.
   Some data is sensitive, for example, pertaining to the health of patients
