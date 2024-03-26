@@ -62,6 +62,13 @@ This is the core of the Mimir method. When we think of a new project, we can:
 - Run the realizations, writing down what variables we encounter during the
   run that we did not codify already in the previous steps;
 
+It's possible that it's much easier to draft the protocols needed in a
+realization of the experiment rather than the more generic, "abstracted"
+protocols that are readily reused.
+If this is the case, take the time to consider your realized protocol and
+break it up later, "taking out" all variables that might reasonably be changed
+often.
+
 Once we have the data produced by the run, we just need to
 [label](/wetlab/sample_labelling.html) it and upload the text of the realized
 experiment plus all of the unexpected variables that we have encountered during the run.

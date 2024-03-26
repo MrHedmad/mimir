@@ -58,3 +58,57 @@ that the `tea_taste-ancient` experiment is run in the context of the `ANTEA`
 project, we give it the ID of `1`.
 
 At this point, the full ID for this run is `ANTEA-tea_taste-ancient-1`.
+
+## Labelling sigle data points
+Each experimental run may have one ore more associated *things*, such as
+samples, vials, measurements, etc...
+It's important to label each item in the experimental run with a specific
+*leaf*, a string with information about it.
+
+How to structure leaves is less strictly defined as we need to allow for
+as much flexibility as possible.
+However, it's a good idea to continue with the principle of hierarchy.
+To continue with the above example, say that we have brewed five different
+cups (`cup_1` through `cup_5`) by taking different tea leaves aliquotes (black,
+green). Each cup is then idependently tested by five different people 
+(`taster_a`, `taster-b`, `taster_c`, etc...).
+We might have leaf-ids that look like this:
+```
+black-cup_1-taster_a
+black-cup_1-taster_b
+black-cup_1-taster_c
+        ...
+black-cup_2-taster_a
+black-cup_2-taster_b
+        ...
+green-cup_1-taster_a
+        ...
+green-cup_5-taster_e
+```
+Going from highest ranking ("type of tea") to intermediate ("cup number") to
+the most fine ("taster ID").
+
+Each measurement (in this case "how good the tea was") is associated with the
+*full* ID. For example, `taster_e` has rated 5/5 the tea from cup 2 made from
+black tea leaves.
+Thus we record the score like this:
+```
+ID,                   score
+black-cup_2-taster_e  5
+```
+
+## What to include in the leaf
+The above "leaf" is made up of metadata.
+However, how *much* metadata should be included in the leaf is up to the
+experimenter. A leaf identifier should be primarily useful for the human
+experimenter that is performing the run to know at a glance what is in this
+vial, what this measurement is about, and/or things useful for housekeeping,
+such as when the vial was collected or stored.
+
+In any case, all metadata about the experiment should be saved in separate
+metadata files, as detailed in [what is metadata?](/intro_to_metadata.md).
+This means that the leaf might be as short and as obscure as a single number,
+and as long as containing all metadata variables: as long as it is unique for
+the specific *thing* it is describing, it is not really important what form
+it takes.
+
