@@ -7,12 +7,12 @@
 - [What is metadata?](./intro_to_metadata.md)
 
 # Before experiments
-- [Protocols]() # ./prep/protocols.md
+- [Protocols](./prep/protocols.md)
     - [Writing and using protocols]() # ./prep/writing_protocols.md
 - [What metadata is useful?]() # ./prep/generating_metadata.md
 
 # At the bench
-- [Sample Labelling]() # ./wetlab/sample_labelling.md
+- [Sample Labelling](./wetlab/sample_labelling.md)
 - [Handling unexpected variables]() # ./wetlab/unexpected_variables.md
 
 # At the PC

@@ -1,6 +1,6 @@
 # What is in it for me?
 
-You might still not be convinced that the effort is worth the candle.
+You might still not be convinced that the game is worth the candle.
 Your method for handling data might be perfectly fine for you:
 you've never lost any data, and you can understand your files well.
 
