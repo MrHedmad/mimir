@@ -55,7 +55,7 @@ There is no obvious advantage or benefit of choosing `tsv` rather than `csv` or
 vice-versa, but the `csv` format is generally more common.
 For this reason, the `csv` format should be preferred over `tsv`.
 
-> ![IMPORTANT]
+> [!IMPORTANT]
 > Often, TSV files are saved with the extension `.txt` (as is "plain text").
 > This is an old convention. Please rename TSV files with the `.txt` extension
 > to `.tsv`, or even better, convert them to CSV and save them as such.
