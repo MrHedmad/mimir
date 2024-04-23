@@ -39,12 +39,24 @@ A     B     C     D     E     F     G     H     I     J
 Once we can univocally refer to each data point, we can create a new string
 of numbers with the metadata for each point:
 ```
-A     B       C       D     E     F       G       H     I       J
-Male, Female, Female, Male, Male, Female, Female, Male, Female, Male
+subject_id  gender
+A           Male
+B           Female
+C           Male
+D           Female
+E           Male
+F           Male
+G           Female
+H           Female
+I           Male
+J           Female
 ```
 As you can see, the structure of the data and metadata are very similar.
 This is an intrinsic characteristic of metadata: metadata *is* data, and
 therefore it's represented and handled in much of the same way.
+
+For tabular data such as this one, where values are ordered in columns and
+rows, columns of data are often represented as rows of metadata.
 
 ## Down the metadata rabbit hole
 We can go one step further: metadata *about metadata*.
@@ -129,8 +141,10 @@ readable as likely candidates to store metadata:
 - Other formats that can be easily [transpiled](https://en.wikipedia.org/wiki/Source-to-source_compiler)
   into JSON, such as [YAML](https://en.wikipedia.org/wiki/YAML) or
   [TOML](https://en.wikipedia.org/wiki/TOML).
+- [Resource Description Framework (RDF)](https://en.wikipedia.org/wiki/Resource_Description_Framework),
+  a network-like object mainly used to format metadata for the web.
 
-JSON and CSV files are most fitting for metadata.
+RDF, JSON and CSV files are most fitting for metadata.
 If you have not encountered these formats before, I suggest you look up what
 they are before continuing to read.
 
@@ -138,6 +152,15 @@ The JSON format is convenient when there are many fields with little data
 in each field. A CSV metadata is instead more capable of capturing a lot
 of information for a few fields, for instance clinical metadata of the
 patients from which the real data is sourced from.
+RDF is usually the most complex of the three, usually used for meta-metadata
+and generally high-level metadata.
+It can, however, be applied at any level, with the proper onthology.
+
+> [!NOTE]
+> Since RDF often requires a surrounding framework (such as loading some
+> RDF-schema or [OWL](https://en.wikipedia.org/wiki/Web_Ontology_Language) on
+> the web at a fixed [IRI](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)),
+> we will focus on mostly schemaless JSON or CSV metadata, although it is not optimal.
 
 For example, we might have the following JSON to represent an ecological
 measurement:
