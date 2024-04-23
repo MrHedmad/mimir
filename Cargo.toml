@@ -1,0 +1,9 @@
+# This only exists to have `rust-cache` work on github.
+# It has no actual use locally
+[package]
+name = "placeholder"
+version = "0.0.0"
+
+[dependencies]
+mdbook = "0.4"
+mdbook-callouts = "0.2"
