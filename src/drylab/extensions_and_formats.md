@@ -42,6 +42,24 @@ heading of the table.
 Note that some programs use the first column as row names: avoid this, instead
 saving the row names as a proper column (with a useful name, like `sample_names`).
 
+A `tsv` or tab-separated values file is similar to a `csv` file, but uses tabs
+instead of commas. It looks like the text below when opened with a text editor:
+```
+header_1	header_2	header_3
+value	value	value
+value	value	value
+a value with a comma, inside	value	value
+```
+
+There is no obvious advantage or benefit of choosing `tsv` rather than `csv` or
+vice-versa, but the `csv` format is generally more common.
+For this reason, the `csv` format should be preferred over `tsv`.
+
+> ![IMPORTANT]
+> Often, TSV files are saved with the extension `.txt` (as is "plain text").
+> This is an old convention. Please rename TSV files with the `.txt` extension
+> to `.tsv`, or even better, convert them to CSV and save them as such.
+
 A `csv` has [MIME](https://en.wikipedia.org/wiki/Media_type) type of `text/csv`.
 
 #### Formats to avoid
@@ -148,3 +166,11 @@ It can also check if the file is well-formatted and valid.
 
 Another possibility is [FIDO](https://openpreservation.org/tools/fido), available
 as a Python library and command-line tool.
+
+## Traces of ion imaging
+Wavelength traces produced by programs such as Metafluor, and read by Clampfit,
+are saved as `.txt` but in reality are tab-separated values, a format very
+similar to `csv` (which uses tab characters, `\t`, instead of commas).
+
+Therefore, the same considerations of the "Numerical Data" section from above
+should be applied to them.
