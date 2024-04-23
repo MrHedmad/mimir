@@ -17,7 +17,7 @@ labels on vials, items and files should look like:
                              ID
 ```
 
-For example, assume we are studying how in ancient Asia tea was brewed.
+For example, assume we are studying how in ancient Asian tea was brewed.
 We have found several tea leaves in a tomb and we are exploring the taste of
 different tea-brewing techniques.
 The overarching project is called Ancient Tea, and we decide that its ID will
