@@ -50,7 +50,11 @@ for all of these terms:
 - Each run (generally) produces one or more **measurements**.
   The collection of these measurements is our data.
 
-You can see that the actual entity which produces real data is the run.
+<div align="center">
+<img src="https://github.com/MrHedmad/mimir/blob/main/resources/images/Basic_project_structure.png?raw=true">
+</div>
+
+You can see that the actual *thing* that produces real data is the run.
 Every other level in this hierarchy also produces variables: our metadata.
 
 This is the core of the Mimir method. When we think of a new project, we can:

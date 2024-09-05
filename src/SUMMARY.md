@@ -5,6 +5,8 @@
 - [Why is FAIR important?](./why_FAIR.md)
 - [What is in it for me?](./why_should_I_do_this.md)
 - [What is metadata?](./intro_to_metadata.md)
+- [Identifiers](./identifiers.md)
+- [Formats, serialization and deserialization](formats_serde.md)
 
 # Before experiments
 - [Protocols](./prep/protocols.md)
