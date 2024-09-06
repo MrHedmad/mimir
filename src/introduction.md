@@ -20,3 +20,15 @@ The book is divided in sections and it is meant to be read both from top to bott
 - The **Before experiments** section outlines things that should be handled before starting experiments, both in general (i.e. systems and policies that should be in place) and in the specific (i.e. what steps should be performed before every experiment).
 - The **At the bench** section outlines what should be done or kept in mind while working specifically at the bench.
 - The **At the PC** section covers the practices that should be implemented while handling data after the measurements on the samples have been completed.
+
+
+## Who is this book for?
+This book is aimed at both researchers that generate or handle data, and at their bosses, which want or need to setup proper data management guidelines for their own laboratory.
+
+If you have ever:
+- Lost data in some hard drive somewhere;
+- Forgot what a file was all about;
+- Could not read the weird file format of the files left by your collaborators a year ago;
+- Panicked at the amount of data you have to sieve trough to write a report or paper;
+
+then you might find Mimir to be useful.

@@ -9,6 +9,7 @@ You eventually need to:
 - Use other's data;
 - Combine different datasets of your own work;
 - Handle other people's data for, e.g., quality check;
+- Find new people who are as interested to your experimental problem as you are.
 
 If everyone produced FAIR data, all of these steps would be extremely easy to carry out and, in some cases, automatic.
 

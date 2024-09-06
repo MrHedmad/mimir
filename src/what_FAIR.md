@@ -24,11 +24,11 @@ With FAIR data we mean data that is:
   If metadata was readable by a machine, you could run powerful searches managing to locate the proverbial needle (the data that you need) in the haystack (the huge amount of data available online).
 - **Accessible**: you can easily obtain, or know how to obtain, FAIR data.
   This might seem trivial, but not all data is born equal.
-  Some data is sensitive, for example, pertaining to the health of patients or their sexual, political or otherwise secretive opinions.
+  Some data is sensitive, for example, pertaining to the health of patients or their sexual, political or otherwise opinions that should be kept secret.
   Such data should still be findable, but it might require additional levels of protection regarding how it can be *accessed*.
-  This point is focused around *a way to access data*, not that the data is open access by default: the ways of getting the data should be clearly stated (e.g. asking for permission, signing waivers, etc...), but need not be open.
+  This point is focused around *a way to access data*, not that the data is openly accessible by default: the ways of getting the data should be clearly stated (e.g. asking for permission, signing waivers, etc...), but need not be open.
 
-  This point also covers the physical method of getting the data.
+  This point also covers the actual method of getting the data.
   For example, data might not be accessible if the only way to obtain it is to send a carrier pigeon with a USB strapped to its leg to the recipient.
   The way to get the data needs to be standardized and widely available to all.
   Luckily, the internet exists, so we can leverage its protocols to transport data from point A to point B.
