@@ -9,6 +9,7 @@
 - [Formats, serialization and deserialization](formats_serde.md)
 
 # Before experiments
+- [Protocols, experiments and projects](prep/definitions.md)
 - [Protocols](./prep/protocols.md)
     - [Writing and using protocols]() # ./prep/writing_protocols.md
 - [What metadata is useful?]() # ./prep/generating_metadata.md
