@@ -19,7 +19,7 @@
 - [Handling unexpected variables]() # ./wetlab/unexpected_variables.md
 
 # At the PC
-- [File formats and extensions](./drylab/extensions_and_formats.md)
+- [Choosing file formats](./drylab/extensions_and_formats.md)
   - [File formats quick reference](./drylab/file_formats_quickguide.md)
 - [Naming files]() # ./drylab/file_names.md
 - [Long-term storage of data]() # ./drylab/file_lts.md
