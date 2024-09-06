@@ -1,4 +1,5 @@
 # Identifiers
+We will use identifiers troughout the book, so it's worthwile to make sure that some concepts are very clear from the get-go.
 
 An *Identifier* or "ID" for short is an alphanumeric series of characters (like, a word), that refers to some item.
 This item might be anything: a column in a spreadsheet, an idea, a textual note, a fossilized bone in a museum drawer, etc...
