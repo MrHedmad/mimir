@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/MrHedmad/mimir/blob/main/resources/images/mimir_flat.png" width="350">
+<img src="https://github.com/MrHedmad/mimir/blob/main/resources/images/mimir.png" height="350">
 </div>
 
 Mimir is a data management system for smaller data-producing laboratories.
